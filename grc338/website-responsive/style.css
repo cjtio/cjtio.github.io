@@ -45,19 +45,15 @@ li a:hover {
 }
 
 
-header img{
-    width: 5em;
+h1 img{
+    width: 2em;
 }
 
-h1{
+h2{
     font-family: rosella-deco, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
-}
-
-h3 p{
-    font-size: 1em
 }
 
 article {
@@ -73,7 +69,7 @@ article {
     line-height: 40%;
 }
 
-.menu h2{
+.menu h3{
     padding-top: 2em;
     font-size: 1.5em;
 }
@@ -84,7 +80,7 @@ article {
 
 footer{
     background-color: #333;
-    color: #aaaaaaaa;
+    color: #aaa;
     padding: 3em;
 }
 
@@ -100,8 +96,12 @@ footer a{
         max-width: 55em;
         margin: auto;
     }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
     nav ul{
-    text-align: right;
+        text-align: right;
     }
 }
 /*Please don’t change this CSS stylesheet for the content hierarchy assginment */
