@@ -23,6 +23,7 @@ nav{
     font-family: neue-haas-unica, sans-serif;
     margin-top: 3em;
 }
+
 nav li {
     list-style-type: none;
     display: inline;
@@ -92,12 +93,15 @@ footer img{
 }
 
 footer a{
-    color:#aaaaaa;
+    color:#aaa;
 }
 @media screen and (min-width: 40em){
     html{
         max-width: 55em;
         margin: auto;
+    }
+    nav ul{
+    text-align: right;
     }
 }
 /*Please don’t change this CSS stylesheet for the content hierarchy assginment */
