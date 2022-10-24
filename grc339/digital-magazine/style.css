@@ -6,10 +6,12 @@ body {
     font-style: normal;
 }
 
+
 div.container {
-    max-width: 40em;
+    max-width: 30em;
     margin: auto;
     padding: 1em;
+    background-color: #fefefe;
 }
 
 header img {
@@ -58,7 +60,7 @@ h3 {
     font-family: hoss-round-xnarrow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     margin: 0em;
 }
 h4{
@@ -74,17 +76,18 @@ p {
     font-family: new-frank,sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 24px;
 }
 
 a {
     text-decoration-line: none;
-    color: #000;
+    color: #333;
 }
 
 section.main h3 {
-    font-size: 40px
+    font-size: 40px;
 }
 
 # section.teaser-img{
-    width: 33%
+    width: 33%;
 }
