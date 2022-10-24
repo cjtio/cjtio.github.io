@@ -1,0 +1,90 @@
+/*CSS document*/
+
+body {
+    font-family: new-frank,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+
+header img {
+    width: 30%;
+}
+
+figure {
+    display: block;
+    margin: 0;
+}
+
+header{
+    display: block;
+    
+}
+
+img {
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: new-frank, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-right: 1em;
+}
+
+hr{
+    color: #eee;
+    margin-bottom: 3em;
+}
+
+h3 {
+    font-family: hoss-round-xnarrow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0em;
+}
+h4{
+    font-family: new-frank,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: new-frank,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+section.main h3 {
+    font-size: 40px
+}
+
+# section.teaser-img{
+    width: 33%
+}
